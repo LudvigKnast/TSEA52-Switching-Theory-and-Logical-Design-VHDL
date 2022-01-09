@@ -1,0 +1,7 @@
+run
+-ifn boolfunc.prj
+-top boolfunc
+-p xc9572
+-ofn boolfunc.ngc
+-opt_mode speed
+-opt_level 1

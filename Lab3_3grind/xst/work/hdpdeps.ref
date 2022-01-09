@@ -1,0 +1,8 @@
+V3 3
+FL /home/ludkn080/TSEA52/Labbar/Lab3/Lab3_3grind/comb_lock.vhd 2020/11/17.12:22:41 P.20131013
+EN work/comb_lock 1606482938 \
+      FL /home/ludkn080/TSEA52/Labbar/Lab3/Lab3_3grind/comb_lock.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/comb_lock/behav 1606482939 \
+      FL /home/ludkn080/TSEA52/Labbar/Lab3/Lab3_3grind/comb_lock.vhd \
+      EN work/comb_lock 1606482938

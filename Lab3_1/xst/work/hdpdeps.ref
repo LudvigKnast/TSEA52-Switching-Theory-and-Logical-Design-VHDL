@@ -1,0 +1,7 @@
+V3 5
+FL /home/ludkn080/TSEA52/Labbar/Lab3/Lab3_1/boolfunc.vhd 2020/11/20.07:17:40 P.20131013
+EN work/boolfunc 1605853357 \
+      FL /home/ludkn080/TSEA52/Labbar/Lab3/Lab3_1/boolfunc.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/boolfunc/equations1 1605853358 \
+      FL /home/ludkn080/TSEA52/Labbar/Lab3/Lab3_1/boolfunc.vhd EN work/boolfunc 1605853357

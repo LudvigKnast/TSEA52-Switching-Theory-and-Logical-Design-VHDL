@@ -1,0 +1,144 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "boolfunc.prj"
+
+---- Target Parameters
+Target Device                      : xc9572
+Output File Name                   : "boolfunc.ngc"
+
+---- Source Options
+Top Module Name                    : boolfunc
+
+---- General Options
+Optimization Goal                  : speed
+Optimization Effort                : 1
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "/home/ludkn080/TSEA52/Labbar/Lab3/Lab3_1/boolfunc.vhd" in Library work.
+Architecture equations1 of Entity boolfunc is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <boolfunc> in library <work> (architecture <equations1>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <boolfunc> in library <work> (Architecture <equations1>).
+Entity <boolfunc> analyzed. Unit <boolfunc> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <boolfunc>.
+    Related source file is "/home/ludkn080/TSEA52/Labbar/Lab3/Lab3_1/boolfunc.vhd".
+    Found 1-bit xor2 for signal <d>.
+    Summary:
+	inferred   1 Xor(s).
+Unit <boolfunc> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Xors                                                 : 1
+ 1-bit xor2                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <boolfunc> ...
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+Top Level Output File Name         : boolfunc.ngc
+Output Format                      : ngc
+Optimization Goal                  : speed
+Keep Hierarchy                     : no
+Target Technology                  : xc9572
+
+Design Statistics
+# IOs                              : 7
+
+Cell Usage :
+# BELS                             : 10
+#      AND2                        : 1
+#      INV                         : 5
+#      OR2                         : 3
+#      XOR2                        : 1
+# IO Buffers                       : 7
+#      IBUF                        : 3
+#      OBUF                        : 4
+=========================================================================
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 1.91 secs
+ 
+--> 
+
+
+Total memory usage is 603680 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
