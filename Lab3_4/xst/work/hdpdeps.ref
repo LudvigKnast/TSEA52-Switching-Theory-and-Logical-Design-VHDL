@@ -1,0 +1,6 @@
+V3 3
+FL /home/ludkn080/TSEA52/Labbar/Lab3/Lab3_4/timer.vhd 2020/11/19.15:53:50 P.20131013
+EN work/timer 1606483070 FL /home/ludkn080/TSEA52/Labbar/Lab3/Lab3_4/timer.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/timer/behav 1606483071 \
+      FL /home/ludkn080/TSEA52/Labbar/Lab3/Lab3_4/timer.vhd EN work/timer 1606483070

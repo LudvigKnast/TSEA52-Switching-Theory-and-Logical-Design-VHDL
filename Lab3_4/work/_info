@@ -1,0 +1,92 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/ludkn080/TSEA52/Labbar/Lab3/Lab3_4
+Etimer
+Z1 w1605797630
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8timer.vhd
+Z6 Ftimer.vhd
+l0
+L5
+V]b]CI5i9743g35CMV[So90
+!s100 MaW>H:K;cLMC1PFmZ4o[13
+Z7 OL;C;10.6d;65
+32
+Z8 !s110 1606483011
+!i10b 1
+Z9 !s108 1606483011.000000
+Z10 !s90 -2002|timer.vhd|
+Z11 !s107 timer.vhd|
+!i113 0
+Z12 o-2002
+Z13 tExplicit 1 CvgOpt 0
+Abehav
+R2
+R3
+R4
+DEx4 work 5 timer 0 22 ]b]CI5i9743g35CMV[So90
+32
+R8
+l15
+L12
+VK[bJ725@mF0fCJ4@ZLi402
+!s100 >?JRUdDI0LibciASBe<1_2
+R7
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+Etimer_tb
+Z14 w1604866964
+R2
+R3
+R4
+R0
+Z15 8timer_tb.vhd
+Z16 Ftimer_tb.vhd
+l0
+L5
+VA<m@`bC531O]n8EdnCi_X1
+!s100 6Z;F[B93fRIQeT8liERTL3
+R7
+32
+R8
+!i10b 1
+R9
+Z17 !s90 -2002|timer_tb.vhd|
+Z18 !s107 timer_tb.vhd|
+!i113 0
+R12
+R13
+Asim
+R2
+R3
+R4
+DEx4 work 8 timer_tb 0 22 A<m@`bC531O]n8EdnCi_X1
+32
+R8
+l23
+L8
+V?g7D?6b9=IhH@;iiXeZWm1
+!s100 C][HLdJ]D9FSzHhYeDJ6R1
+R7
+!i10b 1
+R9
+R17
+R18
+!i113 0
+R12
+R13
